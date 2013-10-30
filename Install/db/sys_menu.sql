@@ -1,0 +1,8 @@
+CREATE TABLE `sys_menu` (
+  `MENU_ID` varchar(10) NOT NULL DEFAULT '0',
+  `MENU_NAME` varchar(100) NOT NULL DEFAULT '',
+  `IMAGE` varchar(100) NOT NULL DEFAULT '',
+  `MENU_EXT` varchar(600) NOT NULL,
+  `LANGUAGE_TYPE` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`MENU_ID`)
+) ;
